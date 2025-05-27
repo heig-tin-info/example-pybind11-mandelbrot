@@ -1,6 +1,10 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.use("Qt5Agg")
+
 from mandelbrot import MandelbrotGenerator
+
 
 WIDTH = HEIGHT = 500
 ITER = 500
